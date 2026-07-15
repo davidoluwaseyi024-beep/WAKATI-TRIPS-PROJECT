@@ -4,6 +4,8 @@ export type Destination = {
   blurb: string;
   dimensions: string;
   images: string[];
+  coordinates: string; 
+  season: string;
 };
 
 // Priority order as set by the client. Add new entries at the end to extend.
@@ -16,6 +18,8 @@ export const destinations: Destination[] = [
     blurb: "Private Nile sailings, the Giza plateau at first light, and access most tour buses never get.",
     dimensions: "640 × 800",
     images: ["/images/destinations/cairo-1.jpg", "/images/destinations/cairo-2.jpg"],
+    coordinates: "30.04° N, 31.24° E",
+    season: "Oct – Apr",
   },
   {
     country: "Morocco",
@@ -23,6 +27,8 @@ export const destinations: Destination[] = [
     blurb: "Riads chosen by hand, medina routes that skip the crowds, dinners in the foothills of the Atlas.",
     dimensions: "640 × 800",
     images: ["/images/destinations/marrakech-1.jpg", "/images/destinations/marrakech-2.jpg"],
+    coordinates: "31.63° N, 7.97° W",
+    season: "Mar – Oct",
   },
   {
     country: "Tanzania",
@@ -36,6 +42,8 @@ export const destinations: Destination[] = [
       "/images/stone-town/stone-town-tour-04.jpg",
       "/images/stone-town/stone-town-tour-05.jpg",
     ],
+    coordinates: "39.25° E, 6.78° S",
+    season: "Dec – May",
   },
   {
     country: "Kenya",
@@ -43,6 +51,8 @@ export const destinations: Destination[] = [
     blurb: "Migration-season safaris with guides who know the herds' movement, not just the map.",
     dimensions: "640 × 800",
     images: ["/images/destinations/maasai-mara-1.webp", "/images/destinations/maasai-mara-2.jpg"],
+    coordinates: "36.57° E, 1.52° S",
+    season: "Jul – Oct",
   },
   {
     country: "South Africa",
@@ -50,6 +60,8 @@ export const destinations: Destination[] = [
     blurb: "Coastline, vineyards, and city in one itinerary, sequenced so no day feels rushed.",
     dimensions: "640 × 800",
     images: ["/images/destinations/cape-town-1.jpeg", "/images/destinations/cape-town-2.webp"],
+    coordinates: "18.42° E, 33.92° S",
+    season: "Sep – Apr",
   },
   {
     country: "Ghana",
@@ -61,6 +73,8 @@ export const destinations: Destination[] = [
       "/images/destinations/accra-2.jpg",
       "/images/destinations/accra-3.jpg",
     ],
+    coordinates: "5.60° N, 0.19° W",
+    season: "Dec – May",
   },
   {
     country: "Tanzania",
@@ -68,6 +82,8 @@ export const destinations: Destination[] = [
     blurb: "Endless plains, private conservancies, and camps positioned ahead of the migration.",
     dimensions: "640 × 800",
     images: ["/images/destinations/serengeti-1.jpg", "/images/destinations/serengeti-2.jpg"],
+    coordinates: "34.30° E, 2.92° S",
+    season: "Jul – Oct",
   },
 ];
 
