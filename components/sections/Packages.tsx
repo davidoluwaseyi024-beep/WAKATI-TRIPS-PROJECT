@@ -10,8 +10,7 @@ function CheckIcon({ className }: { className?: string }) {
       viewBox="0 0 20 20"
       fill="none"
       className={className}
-      aria-hidden="true"v
-    >
+      aria-hidden="true"    >
       <path
         d="M4 10.5l3.5 3.5L16 5.5"
         stroke="currentColor"
