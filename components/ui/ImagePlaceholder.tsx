@@ -34,6 +34,7 @@ export function ImagePlaceholder({
           src={src}
           alt={alt}
           fill
+          quality={90}
           priority={priority}
           loading={priority ? undefined : "lazy"}
           sizes={sizes}

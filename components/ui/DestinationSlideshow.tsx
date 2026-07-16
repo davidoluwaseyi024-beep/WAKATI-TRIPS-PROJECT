@@ -74,6 +74,7 @@ export function DestinationSlideshow({
             src={src}
             alt={alt}
             fill
+            quality={90}
             priority={priority && index === 0}
             loading={priority && index === 0 ? undefined : "lazy"}
             sizes={sizes}
