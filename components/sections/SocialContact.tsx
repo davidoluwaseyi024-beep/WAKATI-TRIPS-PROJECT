@@ -15,8 +15,8 @@ export function SocialContact() {
         />
 
         <div className="mt-8 flex flex-col items-center gap-2 font-mono text-mono-data uppercase tracking-[0.08em] text-paper/70">
-          <a href="mailto:hello@wakatitrips.com" className="hover:text-gold">
-            hello@wakatitrips.com  placeholder
+          <a href="mailto:ogedazzle@yahoo.com" className="hover:text-gold">
+            ogedazzle@yahoo.com
           </a>
           <a href="tel:+2348084827574" className="hover:text-gold">
             +234 808 482 7574
