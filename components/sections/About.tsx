@@ -6,6 +6,7 @@ export function About() {
     <section id="about" className="bg-paper py-20 md:py-24">
       <div className="container-page grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
         <ImagePlaceholder
+          src="/images/about-planner.jpeg"
           alt="Wakati Trips planner reviewing an itinerary with a client"
           label="About — planner at work"
           dimensions="1040 × 1200"
