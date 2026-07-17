@@ -1,9 +1,5 @@
 import { Button } from "@/components/ui/Button";
-import { DestinationSlideshow } from "@/components/ui/DestinationSlideshow";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
-import { destinations } from "@/lib/data";
-
-const stoneTown = destinations.find((d) => d.place === "Zanzibar")!;
 
 export function Hero() {
   return (
@@ -48,20 +44,6 @@ export function Hero() {
             Trusted by travelers across 7 regions every trip planned by a dedicated human, not a booking engine.
           </p>
         </div>
-      </div>
-
-      <div className="absolute bottom-8 right-6 z-10 hidden w-64 border border-gold/30 bg-ink/60 p-4 backdrop-blur lg:block">
-        <DestinationSlideshow
-          images={stoneTown.images}
-          alt="Stone Town, Zanzibar"
-          label="Featured destination"
-          dimensions="480 × 320"
-          ratioClassName="aspect-[3/2]"
-          sizes="256px"
-        />
-        <p className="mt-3 font-mono text-mono-data uppercase tracking-[0.08em] text-paper/70">
-          Zanzibar · Stone Town
-        </p>
       </div>
     </section>
   );
