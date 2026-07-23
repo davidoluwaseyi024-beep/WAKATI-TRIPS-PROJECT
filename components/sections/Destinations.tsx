@@ -39,10 +39,7 @@ export function Destinations() {
                 />
               )}
               <div className="mt-4">
-                <p className="font-mono text-[0.75rem] uppercase tracking-[0.1em] text-gold/80">
-                  {d.coordinates} · {d.season}
-                </p>
-                <h3 className="mt-2 font-display text-xl italic text-paper">{d.country}</h3>
+                <h3 className="font-display text-xl italic text-paper">{d.country}</h3>
                 <p className="text-[0.9375rem] text-paper/60">{d.place}</p>
                 <p className="mt-3 text-body text-paper/70">{d.blurb}</p>
               </div>
