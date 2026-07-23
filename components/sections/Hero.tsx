@@ -7,7 +7,7 @@ export function Hero() {
       <div className="absolute inset-0 h-full w-full">
         <ImagePlaceholder
           src="/images/flight-background.jpg"
-          alt="Airplane flying over palm trees against a clear blue sky"
+          alt="Jet plane flying low past a palm tree against a vivid blue sky with clouds"
           label="Hero background"
           dimensions="1920 × 1080"
           ratioClassName="aspect-auto"
@@ -16,9 +16,8 @@ export function Hero() {
           sizes="100vw"
         />
       </div>
-      <div className="absolute inset-0 bg-ink/60" />
-      <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/80 to-ink/30" />
-      <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-ink/90 via-ink/55 to-ink/10" />
+      <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" />
 
       <div className="container-page relative z-10 py-32">
         <div className="max-w-2xl lg:max-w-xl xl:max-w-2xl">
